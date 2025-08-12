@@ -1,0 +1,25 @@
+{
+  "name": "guitar-keyboard",
+  "version": "1.0.0",
+  "description": "Desktop app that converts guitar notes to keyboard input",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "dev": "nodemon src/main.js",
+    "build": "pkg . --out-path dist/"
+  },
+  "keywords": ["guitar", "tuner", "keyboard", "audio", "pitch-detection"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "robotjs": "^0.6.0",
+    "node-record-lpcm16": "^1.0.1",
+    "fft-js": "^0.0.12",
+    "ml-matrix": "^6.10.4",
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "pkg": "^5.8.1"
+  }
+}
